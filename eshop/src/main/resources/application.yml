@@ -1,0 +1,22 @@
+logging:
+  level:
+    root: ERROR
+    spring: ERROR
+    eshop-dao: INFO
+    eshop-controller: INFO
+    eshop: INFO
+
+
+
+  group:
+    spring: "org.springframework, org.springdoc"
+    eshop-dao: "com.harshit.eshop.dao"
+    eshop-controller: "com.harshit.eshop.controller"
+    eshop: "com.harshit.eshop"
+
+
+
+# spring:
+#    cache:
+#     redis:
+#      time-to-live: 10s
